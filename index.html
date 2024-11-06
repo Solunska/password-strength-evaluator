@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="index.css">
+
+</head>
+
+<body>
+    <main>
+        <h1>Register</h1>
+        <form class="form-container" id="form">
+            <div class="form-control">
+                <input type="text" name="username" id="username" placeholder="Username" required>
+            </div>
+            <div class="form-control">
+                <input type="password" name="password" id="password" placeholder="Password" required>
+            </div>
+            <ul id="alerts">
+            </ul>
+            <div class="container">
+                <div id="strength"></div>
+                <div id="progress"></div>
+            </div>
+            <p id="score"></p>
+            <div class="btn form-control">
+                <button id="btn" type="submit">Register</button>
+            </div>
+        </form>
+    </main>
+    <script src="index.js"></script>
+
+</body>
+
+</html>
